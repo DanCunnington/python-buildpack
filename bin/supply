@@ -31,8 +31,6 @@ VENDOR_DIR="vendor"
 LAME_DIR=$(pwd)/lame
 FFMPEG_DIR=$(pwd)/ffmpeg
 
-echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
-
 cd $BUILD_DIR
 mkdir -p $VENDOR_DIR
 cd $VENDOR_DIR
